@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# MeuGasto - Aplicativo de Controle Financeiro 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MeuGasto é um aplicativo móvel desenvolvido com Expo para ajudar você a gerenciar suas finanças pessoais de forma simples e eficiente.
 
-## Get started
+## Funcionalidades Principais
 
-1. Install dependencies
+- Registro de despesas e receitas
+- Categorização de gastos
+- Visualização de relatórios financeiros
+- Acompanhamento de orçamento
+- Histórico de transações
 
+## Requisitos do Sistema
+
+- Node.js (versão 14 ou superior)
+- npm ou yarn
+- Expo CLI
+- Android Studio (para emulador Android) ou Xcode (para iOS)
+
+## Como Executar o Projeto
+
+1. Clone o repositório
+   ```bash
+   git clone [URL_DO_REPOSITÓRIO]
+   cd MeuGasto
+   ```
+
+2. Instale as dependências
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Inicie o aplicativo
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Escolha uma das opções para executar:
+   - Pressione `a` para abrir no emulador Android
+   - Pressione `i` para abrir no simulador iOS
+   - Escaneie o QR Code com o aplicativo Expo Go no seu celular
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Desenvolvimento
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+O projeto utiliza:
+- Expo para desenvolvimento mobile
+- React Native para a interface
+- Sistema de roteamento baseado em arquivos
 
-## Get a fresh project
+## Contribuição
 
-When you're ready, run:
+Para contribuir com o projeto:
+1. Faça um fork do repositório
+2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
+3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
+4. Faça push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
 
-```bash
-npm run reset-project
-```
+## Suporte
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Em caso de dúvidas ou problemas, abra uma issue no repositório do projeto.
